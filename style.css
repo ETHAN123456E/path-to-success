@@ -196,6 +196,8 @@ nav li{
   border:  solid;
   border-color: #E9BB57;
   margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 li:last-of-type{
   margin-bottom: 0;
@@ -220,6 +222,8 @@ section>section{
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #Path{
   background-color: #484FB7;
@@ -277,18 +281,26 @@ button{
 #WhyChooseUs li:nth-child(1){
   background-color: #4CA7C0;
   padding:20px;
+  text-align: center;
+  justify-content: center;
 }
 #WhyChooseUs li:nth-child(2){
   background-color: #6B8FE7;
   padding: 20px;
+  text-align: center;
+  justify-content: center;
 }
 #WhyChooseUs li:nth-child(3){
   background-color: #E9BB57;
   padding: 20px;
+  text-align: center;
+  justify-content: center;
 }
 #WhyChooseUs li:last-child{
   background-color: white;
   padding: 20px;
+  text-align: center;
+  justify-content: center;
 }
 #TakeTheFirstStep{
   background-color: #D9526F;
