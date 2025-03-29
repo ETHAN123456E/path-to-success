@@ -178,6 +178,12 @@ font-family: Kavoon;
 h2{
 color: white;
 }
+nav{
+  background-color: #E9BB57;
+}
+nav>li{
+  background-color: white;
+}
 nav>h2{
 color: black;
 }
