@@ -149,8 +149,10 @@
 /* CSS RESET */
 *{
     margin: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Inter;
 }
 
@@ -174,11 +176,14 @@ font-size: 50px;
 h2{
 color: white;
 font-family: Kavoon;
+padding: 10px;
 }
 nav{
   background-color: #E9BB57;
   text-align: center;
   padding-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 ul{
   list-style: none;
@@ -203,6 +208,7 @@ padding: 10px;
 h3{
     color: #E9BB57;
     font-family: 2em;
+    padding: 10px;
 }
 h4{
     color: #484FB7;
@@ -224,6 +230,7 @@ section>section{
 #OurServices{
     background-color: #484FB7;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 #OurServices>section:last-of-type{
   margin-bottom: 0px;
@@ -259,6 +266,29 @@ button{
   margin-top: 10px;
   
 }
+#WhyChooseUs ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+#WhyChooseUs li:nth-child(1){
+  background-color: #4CA7C0;
+  padding:20px;
+}
+#WhyChooseUs li:nth-child(2){
+  background-color: #6B8FE7;
+  padding: 20px;
+}
+#WhyChooseUs li:nth-child(3){
+  background-color: #E9BB57;
+  padding: 20px;
+}
+#WhyChooseUs li:last-child{
+  background-color: white;
+  padding: 20px;
+}
 #TakeTheFirstStep{
   background-color: #D9526F;
   padding: 20px;
@@ -273,4 +303,6 @@ button{
 h5{
   color: #484FB7;
   background-color: #484FB7;
+  margin-right: 0;
+  margin-left: 0;
 }
