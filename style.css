@@ -166,7 +166,10 @@ body{
 background-color: #6B8FE7;
 font-family: Inter;
 }
-@media (max-width: 450px){
+@media (max-width: 450px) {
+body{
+  background-color: #484FB7;
+}
 }
 h1{
 color: white;
