@@ -168,24 +168,30 @@ padding-right: 20px;
 }
 @media (max-width: 450px){
 }
-table, tr, th, td{
-    border: 1px solid black;
-}
 h1{
 color: white;
 font-family: Kavoon;
 }
 h2{
 color: white;
+font-family: Kavoon;
 }
 nav{
   background-color: #E9BB57;
+  text-align: center;
+  margin: 0 auto;
 }
-nav>li{
+ul{
+  list-style: none;
+}
+nav li{
   background-color: white;
+  border-radius: 2px;
 }
 nav>h2{
 color: black;
+font-family: Inter;
+font-style: italic;
 }
 h3{
     color: #E9BB57;
@@ -193,6 +199,7 @@ h3{
 }
 h4{
     color: #484FB7;
+    padding: 10px;
 }
 section>section{
     background-color: white;
@@ -200,6 +207,34 @@ section>section{
     padding: 20px;
     margin-bottom: 20px;
 }
+#Online{
+  margin-bottom: 20px;
+}
+#Path{
+  background-color: #484FB7;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 10px;
+}
 #OurServices{
     background-color: #484FB7;
+}
+#WhyChooseUs{
+  background-color: #D9526F;
+  margin-top: 0;
+}
+#Prices{
+  background-color: #484FB7;
+}
+table{
+  border: #333;
+  text-align: center;
+  margin: 0 auto;
+}
+th{
+  background-color: #E9BB57;
+}
+td{
+  background-color: white;
 }
