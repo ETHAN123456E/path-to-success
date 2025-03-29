@@ -175,6 +175,12 @@ h1{
 color: white;
 font-family: Kavoon;
 }
+h2{
+color: white;
+}
+nav>h2{
+color: black;
+}
 h3{
     color: #E9BB57;
     font-family: 2em;
