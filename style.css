@@ -175,11 +175,11 @@ h1{
 color: white;
 font-family: Kavoon;
 }
-h2{
-    color: #E9BB57;
-    font-family: Kavoon;
-}
 h3{
+    color: #E9BB57;
+    font-family: 2em;
+}
+h4{
     color: #484FB7;
 }
 section>section{
