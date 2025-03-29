@@ -163,6 +163,8 @@
 body{
 background-color: #6B8FE7;
 font-family: Inter;
+margin-right: 20px;
+margin-left: 20px;
 }
 @media (max-width: 450px) {
 body{
