@@ -169,6 +169,8 @@ margin-left: 10%;
 @media (max-width: 450px) {
 body{
   background-color: #484FB7;
+  margin-left: 0;
+  margin-right: 0;
 }
 }
 h1{
